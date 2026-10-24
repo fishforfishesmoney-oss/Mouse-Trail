@@ -2,7 +2,7 @@
 
 A Chrome extension that turns any image you choose into your mouse cursor trail.
 
-[Download the extension](https://github.com/fishforfishesmoney-oss/Mouse-Trail/blob/main/cursor-trail-picker.zip)
+[![Download](https://img.shields.io/badge/Download-ZIP-4285F4?style=for-the-badge)](cursor-trail-picker.zip?raw=true)
 
 ## Features
 - Pick any image from your computer
