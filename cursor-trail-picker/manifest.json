@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Cursor Trail Picker",
+  "version": "2.0",
+  "description": "Pick any image from your computer and use it as your mouse cursor trail.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Cursor Trail settings"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["trail.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
